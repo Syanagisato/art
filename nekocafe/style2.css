@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+body {
+	background-image: url(img/back.png);
+	font-family: 'alba', fantasy;
+	margin: 0;
+}
+
+header {
+	background: linear-gradient(to top, #efe, #fff);
+	width: 80%;
+	margin: 0 1rem;
+	text-align: center;
+}
+
+h1 {
+	font-size: 5rem;
+	color: #ffe;
+	text-shadow: 1px 1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, -1px -1px 0 #000;
+}
+
+
+article {
+	background: linear-gradient(to bottom, #fff, #cef);
+	width: 80%;
+	margin: 0 1rem 1rem 1rem;
+	padding: 2rem 1rem;
+}
+
+article img {
+	width: auto;
+	height: 400px;
+	float: right;
+}
+
+article p {
+	overflow: hidden;
+	clear: both;
+	line-height: 3rem;
+}
+
+footer{
+	margin: 0 auto;
+	background-color: #eee;
+	padding: 1rem 3rem;
+}
+footer p {
+	text-align: center;
+	line-height: 2rem;
+}
