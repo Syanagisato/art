@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+#con {
+	position: relative;
+	overflow: hidden;
+}
+
+#icon {
+	width: 33px;
+	height: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+}

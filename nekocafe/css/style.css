@@ -1,0 +1,87 @@
+/*猫カフェスタイルシート*/
+
+@charset "utf-8";
+
+body {
+	background-image: url(../img/back.png);
+	font-family: 'alba', fantasy;
+	margin: 0;
+}
+
+header {
+	width: 100%;
+	margin: 0 auto;
+}
+
+header ul {
+	background-color: #eee;
+	margin: 0;
+	text-align: center;
+	list-style-type: none;
+}
+
+header ul li{
+	display: inline-block;
+	font-size: 1.5rem;
+	padding: 5px;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	color: #fd0;
+}
+
+h1 {
+	text-align: center;
+	font-size: 5rem;
+	color: #ffe;
+	text-shadow: 1px 1px 0 #000,
+							 1px -1px 0 #000,
+							 -1px 1px 0 #000,
+							 -1px -1px 0 #000;
+	margin: 0;
+	padding: 0.8rem;
+}
+
+section{
+	width: 70%;
+	margin: 0 auto;
+	background-color: #cfc;
+}
+
+div.slider {
+	text-align: center;
+}
+
+img {
+	width: auto;
+	height: 400px;
+	margin: 0 auto;
+	
+}
+
+main {
+	width: 70%;
+	margin: 0 auto;
+	background-color: #cfc;
+	border: solid 3px #000;
+}
+
+main p {
+	text-align: center;
+}
+
+footer{
+	margin: 0 auto;
+	background-color: #eee;
+	padding: 1rem 3rem;
+}
+footer p {
+	text-align: center;
+	line-height: 2rem;
+}
+
