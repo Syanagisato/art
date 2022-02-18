@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+	<meta charset="utf-8">
+	<title>ドット絵クリエイト</title>
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width">
+	<script src="jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+	<h1>ドット絵クリエイト</h1>
+	<ul class="right">
+		<li>
+			<label for="color">色選択</label>
+			<input type="text" name="color" id="color">
+			<input type="button" value="OK" id="ok">
+		</li>
+		<li><button type="" id="erase">消しゴム</button></li>
+		<li><button type="" id="line">格子線</button></li>
+		<li><button type="" id="back">背景色</button></li>
+		<li class="pen">ペン：<p id="pen"></p></li>
+	</ul>
+	<table>
+	</table>
+	<p><button type="" id="reset">リセット</button></p>
+	<script src="app.js"></script>
+</body>
+
+</html>

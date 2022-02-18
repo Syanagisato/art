@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+body {
+	position: relative;
+	font-size: 62.5%;
+	text-align: center;
+	background-color: #fec;
+}
+
+h1 {
+	font-size: 4rem;
+}
+
+ul {
+	position: absolute;
+	top: 150px;
+	right: 10px;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+	margin: 1rem 0 0 0;
+	padding: 0;
+	width: 50%;
+}
+
+input[type="text"] {
+	width: 50%;
+}
+
+table {
+	border: 1px solid black;
+	width: 1000px;
+	height: 500px;
+	margin: auto;
+	border-collapse: collapse;
+	background-color: white;
+}
+
+td.yes {
+	width: 10px;
+	height: 10px;
+	margin: 0;
+	border: solid 1px #ccc;
+}
+
+td.non {
+	width: 10px;
+	height: 10px;
+	margin: 0;
+}
+
+.black {
+	background-color: black;
+}
