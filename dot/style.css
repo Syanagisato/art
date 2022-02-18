@@ -43,6 +43,7 @@ td.yes {
 	width: 10px;
 	height: 10px;
 	margin: 0;
+	box-sizing: border-box;
 	border: solid 1px #ccc;
 }
 
@@ -50,6 +51,7 @@ td.non {
 	width: 10px;
 	height: 10px;
 	margin: 0;
+	box-sizing: border-box;
 }
 
 .black {
