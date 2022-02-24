@@ -12,6 +12,9 @@ $(function(){
 	//お絵描き
 	$('#ok').on('click', function(){
 		var color = $('#color').val();
+		if(color == ''){
+			color = 'black';
+		}
 		$('#pen').text(color);
 		
 		var draw = false;
