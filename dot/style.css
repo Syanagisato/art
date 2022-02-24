@@ -3,10 +3,9 @@
 body {
 	text-align: center;
 	background-image: url(img/backimg.png);
-	overflow-x: scroll;
 }
 
-div {
+#div1 {
 	overflow: hidden;
 	clear: both;
 }
@@ -31,11 +30,13 @@ ol {
 
 ol li {
 	text-align: left;
-	margin-left: 3rem;;
+	margin-left: 3rem;
+	line-height: 1.6;
 }
 
 ul {
 	float: right;
+	margin: 5rem 1rem;
 	padding: 1rem;
 	background-color: white;
 	border: 5px dotted orange;
@@ -49,6 +50,11 @@ ul li {
 
 input[type="text"] {
 	width: 30%;
+}
+
+#div2 {
+	border-top: 1rem dotted white;
+	padding: 2rem;
 }
 
 table {

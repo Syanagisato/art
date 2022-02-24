@@ -11,14 +11,18 @@
 </head>
 
 <body>
-	<div>
+	<div id="div1">
 		<h1>ドット絵クリエイト</h1>
-		<ol>
-			<li>色選択からペンの色を、半角英語または「#＋半角数字」で指定できます</li>
-			<li>背景色も同様に指定できます</li>
-			<li>「格子線」ボタンで、格子線の有無を変更できます</li>
+		<ol><b>【操作説明】</b>
+			<li>色選択からペンの色を、半角英語または「#＋半角数字（16進数）」で指定できます</li>
+			<li>背景色も同様に指定できます（入力欄を空欄にすると透過背景になります）</li>
+			<li>色を指定したら「OK」を押してください</li>
+			<li>「格子線」を押すと、格子線の有無を変更できます</li>
+			<li>「リセット」を押すと、描いたものが全削除されます</li>
+			<li>「ダウンロード」を押すと、pngファイルとしてダウンロードされます</li>
+			<li>自由にお絵描きを楽しみましょう！！</li>
 		</ol>
-		<ul class="right">
+		<ul>
 			<li>
 				<label for="color">色選択</label>
 				<input type="text" name="color" id="color">
@@ -31,11 +35,13 @@
 				<input type="text" name="back" id="back">
 				<input type="button" value="OK" id="ok2">
 			</li>
-			<li><button type="" id="line">格子線</button></li>
+			<li><button id="line">格子線</button></li>
 		</ul>
-		<table id="canvas">
-		</table>
-		<p><button type="" id="reset">リセット</button></p>
+		<div id="div2">
+			<table id="canvas">
+			</table>
+		</div>
+		<p><button id="reset">リセット</button></p>
 		<p><input type="button" id="dl" value="ダウンロード"></p>
 		<script src="download.js"></script>
 		<script src="draw.js"></script>
