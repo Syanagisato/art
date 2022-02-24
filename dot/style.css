@@ -79,3 +79,37 @@ td.non {
 	margin: 0;
 	box-sizing: border-box;
 }
+
+#ok, #ok2 {
+	background-color: #ff9;
+	border-radius: 50px;
+	font-family: sans-serif;
+}
+
+#erase {
+	background-color: #def;
+	border-radius: 50px;
+	padding: 0.5rem;
+}
+
+#line {
+	background-color: #fdd;
+	border-radius: 50px;
+	padding: 0.5rem;
+}
+
+#reset {
+	background-color: #ccc;
+	border-radius: 50px;
+	padding: 0.5rem;
+}
+
+#dl {
+	background-color: orange;
+	border-radius: 50px;
+	border: none;
+	box-shadow: 0 3px 5px #330;
+	font-size: 2rem;
+	color: white;
+	padding: 30px;
+}
