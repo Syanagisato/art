@@ -99,9 +99,12 @@ $(function(){
 	
 	//リセット
 	$('#reset').on('click', function(){
-		$('td').removeClass();
-		$('td').css('background-color', '');
-		$('td').addClass("yes");
+		let con = confirm('本当にリセットしますか');
+		if(con){
+			$('td').removeClass();
+			$('td').css('background-color', '');
+			$('td').addClass("yes");
+		}
 	});
 	
 });
