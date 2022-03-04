@@ -8,7 +8,6 @@
 	<link rel="stylesheet" href="css/icon.css">
 	<script src="js/jquery-3.6.0.min.js"></script>
 	<script src="js/cursol.js"></script>
-	<script src="app.js"></script>
 	<meta name="viewport" content="width=device-width">
 </head>
 
@@ -19,6 +18,7 @@
 	
 	<?php require_once("template/footer.php"); ?>
 	</div>
+	<script src="cats.js"></script>
 </body>
 
 </html>

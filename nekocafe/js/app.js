@@ -14,3 +14,4 @@ function slide_time(){
 }
 
 setInterval(slide_time, 1500);
+

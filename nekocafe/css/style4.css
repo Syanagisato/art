@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+body {
+	background-image: url(../img/back.png);
+	font-family: 'alba', fantasy;
+	text-align: center;
+	margin: 0;
+}
+
+header {
+	width: 100%;
+	margin: 0 auto;
+}
+
+header ul {
+	background-color: #eee;
+	margin: 0;
+	text-align: center;
+	list-style-type: none;
+}
+
+header ul li{
+	display: inline-block;
+	font-size: 1.5rem;
+	padding: 5px;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	color: #fd0;
+}
+
+#con {
+	position: relative;
+}
+
+#stage {
+	width: 80%;
+	margin: auto;
+	padding: 1rem;
+}
+
+canvas {
+	background-color: #333;
+	position: absolute;
+	top: 70px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 750px;
+	height: 376px;
+	opacity: 0.5;
+}
+
+
+#setumei {
+	width: 60%;
+	margin: auto;
+	background-color: white;
+	border: 3px dotted yellowgreen;
+}
+
+footer{
+	margin: 0 auto;
+	background-color: #eee;
+	padding: 1rem 3rem;
+}
+footer p {
+	text-align: center;
+	line-height: 2rem;
+}

@@ -8,7 +8,7 @@
 		<link rel="stylesheet" href="css/icon.css">
 		<script src="js/jquery-3.6.0.min.js"></script>
 		<script src="js/cursol.js"></script>
-		<script src="app.js"></script>
+		<script src="js/fadeIn.js"></script>
 		<meta name="viewport" content="width=device-width">
 	</head>
 
@@ -22,7 +22,7 @@
 		
 			<article>
 				<p>
-				<img src="img/heya.jpg" alt="ねこと部屋">
+				<img src="img/heya.jpg" alt="ねこと部屋" id="room">
 				保護ねこカフェ「Baum」は、2032年花野県空野町にオープンしました。<br>
 				「世界から悲しい思いをするねこちゃんをなくそう」を目標に、<br>ねこちゃんの殺処分ゼロを目指して日々活動しています。<br>
 				当店のねこちゃんたちは、みんな身寄りのない「保護ねこ」です。<br>

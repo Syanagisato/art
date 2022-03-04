@@ -34,7 +34,7 @@ a:hover {
 }
 
 section.shop {
-	background: linear-gradient(to top, #fec, #fff);
+	background: linear-gradient(to top, #efe, #fff);
 	width: 80%;
 	margin: 0 1rem;
 	text-align: center;
@@ -57,7 +57,7 @@ article {
 	display: flex;
 	flex-wrap: wrap;
 	box-sizing: border-box;
-	background: linear-gradient(to bottom, #fff, #fec);
+	background: linear-gradient(to bottom, #fff, #efe);
 	width: 55%;
 	margin: 0 0 1rem 2rem;
 	padding: 2rem 1rem;
@@ -87,14 +87,14 @@ table {
 }
 
 table th {
-	background-color: #fec;
+	background-color: #efe;
 	border-bottom: solid 1px #000;
 	border-left: solid 1px #000;
 	font-size: 1.3rem;
 }
 
 caption {
-	background: linear-gradient(to top, #fec, #fff);
+	background: linear-gradient(to top, #efe, #fff);
 	font-size: 1.5rem;
 }
 
