@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+body {
+    text-align: center;
+}
+
+#con {
+   
+    margin: 0;
+}
+
+#upload {
+    border: 5px dotted yellowgreen;
+    width: 50%;
+    margin: 2rem auto;
+}
+
+footer {
+    text-align: left;
+    border: 5px dotted orange;
+    width: 50%;
+    margin: 2rem auto;
+}
+
+input[ype=number]{
+	width: 3rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+#layout {
+		position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0;
+    width: 1000px;
+    height: 500px;
+}
+
+.img {
+    position: absolute;
+    cursor: move;
+    z-index: 1000;
+}
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>イラスト</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="jquery-3.2.1.min.js"></script>
+        <meta name="viewport" content="width=device-width">
+    </head>
+
+    <body>
+        <h1>レイアウト</h1>
+        
+        <p>画像領域サイズ</p>
+        <label for="back-wid">Width</label>
+        <input type="number" id="back-wid">
+        <label for="back-hei">Height</label>
+        <input type="number" id="back-hei">
+        <button id="ok3">ok</button>
+        <p id="wid-hei"></p>
+        
+        <div id="upload">
+            <p>
+                <label for="back">背景画像</label>
+                <input type="text" name="back" id="back">
+                <input type="button" value="ok" id="ok">
+            </p>
+            <p>
+                <label for="obje" class="upload">オブジェ</label>
+	      	        <input type="text" name="obje" id="obje">
+	    	          <input type="button" value="ok" id="ok2">
+                </label>
+            </p>
+        </div>
+        
+        <div id="con">
+            <div id="layout"></div>
+        </div>
+        
+        <footer>
+        	<div id="backimg"></div>
+        	<div id="text"></div>
+        </footer>
+        
+        <script src="add.js"></script>
+        <script src="move.js"></script>
+        <script src="point.js"></script>
+    </body>
+</html>
