@@ -18,12 +18,14 @@
 		
 		<?php require_once("template/header.php"); ?>
 		<div id="stage"><img src="img/map.png"></div>
-		<canvas></canvas>
+		
+		<canvas id="can"></canvas>
 		
 		<div id="setumei">
-			<p>猫の浜駅から徒歩10分です。</p>
+			<p>猫の浜駅から徒歩10分ほどのところにあります。</p>
 			<p>駅を降りたら東改札口を出て、パン屋さんと花屋さんの間の路地をまっすぐお越しください。</p>
 			<p>３本目の交差点を左に曲がったら左手にすぐ当店の看板があります。</p>
+			<p>押すと道案内表示がでます→<a id="road"><strong>この辺です！</strong></a></p>
 		</div>
 		
 		<?php require_once("template/footer.php"); ?>

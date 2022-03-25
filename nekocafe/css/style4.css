@@ -64,6 +64,10 @@ canvas {
 	border: 3px dotted yellowgreen;
 }
 
+#road {
+	font-size: 1.2rem;
+}
+
 footer{
 	margin: 0 auto;
 	background-color: #eee;

@@ -4,6 +4,7 @@ body {
 	background-image: url(../img/back.png);
 	font-family: 'alba', fantasy;
 	margin: 0;
+	text-align: center;
 }
 
 header {
@@ -34,9 +35,10 @@ a:hover {
 }
 
 section {
-	background: linear-gradient(to top, #efe, #fff);
+	background: linear-gradient(to top, #efe, #cff);
 	width: 80%;
-	margin: 0 1rem;
+	margin: auto;
+	margin-bottom: 1rem;
 	text-align: center;
 }
 
@@ -48,9 +50,10 @@ h1 {
 
 
 article {
-	background: linear-gradient(to bottom, #fff, #cef);
+	background: linear-gradient(to bottom, #cff, #cef);
 	width: 80%;
-	margin: 0 1rem 1rem 1rem;
+	margin: auto;
+	margin-bottom: 1rem;
 	padding: 2rem 1rem;
 }
 
@@ -72,6 +75,33 @@ input[type=radio]{
 
 li {
 	list-style-type: none;
+}
+
+ol{
+	width: 70%;
+	margin: auto;
+}
+
+.quest {
+	list-style-type: auto;
+	text-align: left;
+	font-size: 1.4rem;
+}
+
+.ans{
+	margin-bottom: 1.5rem;
+	border-bottom: 1px solid black;
+	text-align: right;
+}
+
+#que_setumei {
+	background-color: white;
+	border: 3px green dotted;
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	margin-bottom: 1.3rem;
+	font-size: 1.2rem;
 }
 
 footer{
