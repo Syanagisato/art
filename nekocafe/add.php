@@ -29,6 +29,6 @@ $stmt->bindValue(":name", $name, PDO::PARAM_STR);
 $stmt->bindValue(":email", $email, PDO::PARAM_STR);
 $stmt->bindValue(":phone", $phone, PDO::PARAM_STR);
 $stmt->execute();
-
-header("Location: confirm.php");
+$id = $pdo->lastInsertId();
+header("Location: confirm.php?id=".$id);
 ?>

@@ -1,7 +1,7 @@
 <?php
 session_start();
 require_once('template/config.php');
-$sql = "SELECT date, time, num, menu, name, email, phone FROM yoyaku";
+$sql = "SELECT date, time, num, menu, name, email, phone FROM yoyaku WHERE id=". $_GET["id"];
 $rs = $pdo->query($sql);
 $row = $rs->fetch(PDO::FETCH_ASSOC);
 ?>
