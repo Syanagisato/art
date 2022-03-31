@@ -67,11 +67,17 @@ h1 {
 }
 
 .catsPhoto {
+	padding: 1rem;
+	background-color: #ffa;
 	margin-top: 0;
+	border: 10px solid #fc6;
+	border-radius: 20px;
 }
 
 .catPhoto {
 	width: 800px;
+	border: 10px solid ivory;
+	border-radius: 20px;
 }
 
 
