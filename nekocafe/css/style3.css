@@ -1,3 +1,5 @@
+/*omise.php*/
+
 @charset "utf-8";
 
 body {
@@ -33,10 +35,11 @@ a:hover {
 	color: #fd0;
 }
 
-section.shop {
-	background: linear-gradient(to top, #efe, #fff);
-	width: 80%;
-	margin: 0 1rem;
+#top {
+	background: #cfc;
+	width: 100%;
+	margin: 0 auto;
+	padding: 1rem;
 	text-align: center;
 }
 
@@ -57,10 +60,11 @@ article {
 	display: flex;
 	flex-wrap: wrap;
 	box-sizing: border-box;
-	background: linear-gradient(to bottom, #fff, #efe);
+	background: white;
 	width: 55%;
-	margin: 0 0 1rem 2rem;
+	margin: 2rem 0 1rem 2rem;
 	padding: 2rem 1rem;
+	border-radius: 20px;
 }
 
 article ul {
@@ -87,15 +91,20 @@ table {
 }
 
 table th {
-	background-color: #efe;
+	background-color: #dfc;
 	border-bottom: solid 1px #000;
 	border-left: solid 1px #000;
 	font-size: 1.3rem;
 }
 
 caption {
-	background: linear-gradient(to top, #efe, #fff);
+	background: white;
+	width: 30%;
+	padding: 1rem;
 	font-size: 1.5rem;
+	border-radius: 50px;
+	margin: auto;
+	margin-bottom: 0.5rem;
 }
 
 table td {

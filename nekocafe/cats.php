@@ -16,7 +16,7 @@
 	<img src="img/icon.png" id="icon">
 	<?php require_once("template/header.php"); ?>
 	
-	<div id="catsTop">
+	<div id="top">
 		<h1>ねこちゃん紹介</h1>
 		<p>今回は、やんちゃなキジトラ猫(♂)のくろすけと、世話好きな三毛猫(♀)のリーリアをご紹介します！</p>
 	</div>

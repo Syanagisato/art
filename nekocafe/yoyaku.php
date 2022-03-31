@@ -21,9 +21,10 @@ $rs = $pdo->query($sql);
 
 <body>
 	<?php require_once("template/header.php"); ?>
-	<section>
+	
+	<div id="top">
 		<h1>ご予約</h1>
-	</section>
+	</div>
 	
 	<article>
 		<h2>ご希望の来店日とメニューを選んでください</h2>

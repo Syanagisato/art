@@ -17,9 +17,9 @@
 		<img src="img/icon.png" id="icon">
 		<?php require_once("template/header.php"); ?>
 		
-		<section>
+		<div id="top">
 			<h1>保護ねこカフェBaum</h1>
-		</section>
+		</div>
 		
 		<div class="slider">
 			<img src="img/cat2s.jpg" alt="ねこちゃん" id="slide_img">

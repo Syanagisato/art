@@ -16,9 +16,10 @@
 		<div id="con">
 		<img src="img/icon.png" id="icon">
 		<?php require_once("template/header.php"); ?>
-		<section>
+		
+		<div id="top">
 			<h1>ごあいさつ</h1>
-		</section>
+		</div>
 		
 			<article>
 				<p>

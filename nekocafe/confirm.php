@@ -19,8 +19,10 @@ $row = $rs->fetch(PDO::FETCH_ASSOC);
 
 <body>
 	<?php require_once("template/header.php"); ?>
+	<div id="top">
+		<h1>以下の内容で予約が完了しました！</h1>
+	</div>
 	
-	<h1>以下の内容で予約が完了しました！</h1>
 	<div id="naiyou">
 		<ul>
 			<li>来店日:<?php echo $row['date']; ?></li>

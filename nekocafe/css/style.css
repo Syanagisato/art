@@ -1,4 +1,4 @@
-/*猫カフェスタイルシート*/
+/*index.php*/
 
 @charset "utf-8";
 
@@ -47,9 +47,10 @@ h1 {
 	padding: 0.8rem;
 }
 
-section{
-	width: 70%;
+#top{
+	width: 100%;
 	margin: 0 auto;
+	padding: 1rem;
 	background-color: #cfc;
 }
 

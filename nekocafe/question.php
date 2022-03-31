@@ -17,9 +17,9 @@
 	<img src="img/icon.png" id="icon">
 	<?php require_once("template/header.php"); ?>
 	
-	<section>
+	<div id="top">
 		<h1>よくある質問</h1>
-	</section>
+	</div>
 	
 	<article>
 		<ol>
