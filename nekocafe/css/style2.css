@@ -48,6 +48,32 @@ h1 {
 	text-shadow: 1px 1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, -1px -1px 0 #000;
 }
 
+#catsTop {
+	background-color: #d1f9cc;
+	width: 100%;
+	margin: 0;
+	margin-bottom: 2rem;
+	padding: 2rem;
+}
+
+.catsSyokai {
+	width: 60%;
+	margin: auto;
+	margin-bottom: 2rem;
+}
+
+.puropera {
+	margin-bottom: 0;
+}
+
+.catsPhoto {
+	margin-top: 0;
+}
+
+.catPhoto {
+	width: 800px;
+}
+
 
 article {
 	background: linear-gradient(to bottom, #cff, #cef);

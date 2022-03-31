@@ -16,9 +16,41 @@
 	<img src="img/icon.png" id="icon">
 	<?php require_once("template/header.php"); ?>
 	
+	<div id="catsTop">
+		<h1>ねこちゃん紹介</h1>
+		<p>今回は、やんちゃなキジトラ猫(♂)のくろすけと、世話好きな三毛猫(♀)のリーリアをご紹介します！</p>
+	</div>
+	
+	<div class="catsSyokai">
+		<div class="puropera">
+			<img src="img/p1.png" class="puropera_illust">
+		</div>
+		<div class="catsPhoto">
+			<img src="img/1.jpg" class="catPhoto">
+		</div>
+	</div>
+	
+	<div class="catsSyokai">
+		<div class="puropera">
+			<img src="img/p1.png" class="puropera_illust">
+		</div>
+		<div class="catsPhoto">
+			<img src="img/2.jpg" class="catPhoto">
+		</div>
+	</div>
+	
+	<div class="catsSyokai">
+		<div class="puropera">
+			<img src="img/p1.png" class="puropera_illust">
+		</div>
+		<div class="catsPhoto">
+			<img src="img/3.jpg" class="catPhoto">
+		</div>
+	</div>
+	
 	<?php require_once("template/footer.php"); ?>
 	</div>
-	<script src="cats.js"></script>
+	<script src="js/puropera.js"></script>
 </body>
 
 </html>
