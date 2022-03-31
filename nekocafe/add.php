@@ -18,7 +18,7 @@ $phone = htmlspecialchars($_POST["phone"], ENT_QUOTES);
 print_r($_POST);
 
 $sql = "INSERT INTO yoyaku(date, time, num, menu, name, email, phone)";
-$sql .= " VALUES(:date,:time, :num, :menu, :name, :email, :phone)";
+$sql .= " VALUES(:date, :time, :num, :menu, :name, :email, :phone)";
 
 $stmt = $pdo->prepare($sql);
 $stmt->bindValue(":date", $date, PDO::PARAM_STR);
@@ -31,4 +31,5 @@ $stmt->bindValue(":phone", $phone, PDO::PARAM_STR);
 $stmt->execute();
 $id = $pdo->lastInsertId();
 header("Location: confirm.php?id=".$id);
+exit();
 ?>
