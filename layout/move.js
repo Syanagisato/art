@@ -20,12 +20,11 @@ function dragMove() { //※2
 	if (!flag) return; //グローバル変数【flag】が‘true’以外、つまり‘false’の時は、dragMove処理（関数）を抜ける（クリック中は【flag】が‘true’なので、以下の処理が実行される）
 	mX = event.clientX - X; //【現在のマウス位置(左)】からマウスダウン時に取得した【要素(左)とマウスの距離(左)】を差し引いて、マウスが移動した分の距離(左)を算出
 	mY = event.clientY - Y; //【現在のマウス位置(上)】からマウスダウン時に取得した【要素(上)とマウスの距離(上)】を差し引いて、マウスが移動した分の距離(上)を算出
-	var targete = document.getElementById(eid);
-	targete.style.left = mX + "px"; //上の計算で出た移動距離に行く
-	targete.style.top = mY + "px";
-	
+	var target = document.getElementById(eid);
+	target.style.left = mX + "px"; //上の計算で出た移動距離に行く
+	target.style.top = mY + "px";
+
 	p.innerHTML = "画像位置  Left: " + mX + "px  Top: " + mY + "px";
-	
 }
 
 var text = document.getElementById("text");

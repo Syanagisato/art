@@ -11,7 +11,7 @@ $(function(){
    //背景の追加
     $('#ok').on('click', function(){
         var back = $('#back').val();
-        $('#layout').css('background-image', 'url(' + back + ')');
+        $('#layout').css('background-image', 'url(img/' + back + ')');
         $('#backimg').text('背景画像：' + back);
     });
     
@@ -19,10 +19,10 @@ $(function(){
     num = 1;
     $('#ok2').on('click', function(){
         var obje = $('#obje').val();
-        var img = $('<img src="' + obje + '" class="img" id="img' + num + '" style="position: absolute" onmousedown="dragOn(this.id)" ondragstart="return false;">');
+        var img = $('<img src="img/' + obje + '" class="img" id="img' + num + '" style="position: absolute" onmousedown="dragOn(this.id)" ondragstart="return false;">');
         $('#layout').append(img);
         $('footer').append('<div id="obje' + num + '"></div>');
-        $('footer').append('<li>' + obje + '</li>');
+        $('footer').append('<li>'+ num + '. ' + obje + '</li>');
         num++;
     });
 })
