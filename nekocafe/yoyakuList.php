@@ -1,7 +1,7 @@
 <?php
 require_once("template/config.php");
 
-$sql = "SELECT * FROM yoyaku";
+$sql = "SELECT * FROM yoyaku, menu WHERE yoyaku.menu_id = menu.menu_id";
 $rs = $pdo->query($sql);
 ?>
 
@@ -27,7 +27,7 @@ $rs = $pdo->query($sql);
 				<p>来店日:<?php echo $row['date']; ?></p>
 				<p>時間:<?php echo $row['time']; ?></p>
 				<p>人数:<?php echo $row['num']; ?></p>
-				<p>メニュー:<?php echo $row['menu']; ?></p>
+				<p>メニュー:<?php echo $row['menu'] . " " . $row['price'] . "円"; ?></p>
 				<p>名前:<?php echo $row['name']; ?></p>
 				<p>メール:<?php echo $row['email']; ?></p>
 				<p>電話:<?php echo $row['phone']; ?></p>

@@ -2,7 +2,7 @@
 session_start();
 require_once("template/config.php");
 
-$sql = "SELECT id, menu, price FROM menu";
+$sql = "SELECT * FROM menu";
 $rs = $pdo->query($sql);
 
 ?>
@@ -54,8 +54,8 @@ $rs = $pdo->query($sql);
 			<p class="list">
 				<h3>メニュー</h3>
 				<?php while($row = $rs->fetch(PDO::FETCH_ASSOC)): ?>
-				<input type="radio" name="menu" value="<?php echo $row['menu']; ?>" id="menu_<?php echo $row['id']; ?>">
-				<label for="menu_<?php echo $row['id']; ?>"><?php echo "{$row['menu']} : {$row['price']}円"; ?></label>
+				<input type="radio" name="menu" value="<?php echo $row['menu_id']; ?>" id="menu_<?php echo $row['menu_id']; ?>">
+				<label for="menu_<?php echo $row['menu_id']; ?>"><?php echo "{$row['menu']} : {$row['price']}円"; ?></label>
 				<?php endwhile; ?>
 			</p>
 			

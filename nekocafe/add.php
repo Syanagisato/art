@@ -17,14 +17,14 @@ $email = htmlspecialchars($_POST["email"], ENT_QUOTES);
 $phone = htmlspecialchars($_POST["phone"], ENT_QUOTES);
 print_r($_POST);
 
-$sql = "INSERT INTO yoyaku(date, time, num, menu, name, email, phone)";
-$sql .= " VALUES(:date, :time, :num, :menu, :name, :email, :phone)";
+$sql = "INSERT INTO yoyaku(date, time, num, menu_id, name, email, phone)";
+$sql .= " VALUES(:date, :time, :num, :menu_id, :name, :email, :phone)";
 
 $stmt = $pdo->prepare($sql);
 $stmt->bindValue(":date", $date, PDO::PARAM_STR);
 $stmt->bindValue(":time", $time, PDO::PARAM_STR);
 $stmt->bindValue(":num", $num, PDO::PARAM_INT);
-$stmt->bindValue(":menu", $_POST["menu"], PDO::PARAM_STR);
+$stmt->bindValue(":menu_id", $_POST["menu"], PDO::PARAM_STR);
 $stmt->bindValue(":name", $name, PDO::PARAM_STR);
 $stmt->bindValue(":email", $email, PDO::PARAM_STR);
 $stmt->bindValue(":phone", $phone, PDO::PARAM_STR);
